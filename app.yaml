@@ -1,0 +1,12 @@
+runtime: python311
+
+service: backend
+
+env_variables:
+  CLOUD_SQL_USERNAME: meaties
+  CLOUD_SQL_PASSWORD: themeatynumberone
+  CLOUD_SQL_DATABASE_NAME: meatyDb
+  CLOUD_SQL_CONNECTION_NAME: meaty-apps:asia-southeast2:meaty-instance
+
+  beta_settings:
+  cloud_sql_instances: meaty-apps:asia-southeast2:meaty-instance
